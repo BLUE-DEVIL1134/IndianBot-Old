@@ -8,7 +8,7 @@ from telethon.utils import pack_bot_file_id
 from userbot.utils import admin_cmd
 
 
-@borg.on(admin_cmd("get_id"))
+@borg.on(admin_cmd("id"))
 async def _(event):
     if event.fwd_from:
         return
@@ -33,7 +33,7 @@ async def _(event):
 Syntax: .get_bot"""
 
 
-@borg.on(admin_cmd("get_bot ?(.*)"))
+@borg.on(admin_cmd("bots ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
