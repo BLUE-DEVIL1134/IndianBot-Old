@@ -1,5 +1,5 @@
 """Get ID of any Telegram media, or any user
-Syntax: .get_id"""
+Syntax: id"""
 from telethon import events
 from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantsBots
@@ -30,7 +30,7 @@ async def _(event):
 
 
 """ Get the Bots in any chat*
-Syntax: .get_bot"""
+Syntax: bot"""
 
 
 @borg.on(admin_cmd("bots ?(.*)"))
