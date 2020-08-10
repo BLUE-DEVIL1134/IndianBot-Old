@@ -1,9 +1,9 @@
 {
   "name": "IndianBot-Archived",
   "description": "Join https://t.me/IndianBot_Official for any problems or support",
-  "logo": "https://telegra.ph/file/b6cd017959adc2814db5f.jpg",
+  "logo": "https://raw.githubusercontent.com/indianbhaiya/IndianBot/master/.github/indian-bot.png",
   "keywords": ["Telegram", "Userbot","Python3"],
-  "repository": "https://github.com/indianbhaiya/IndianBot/",
+  "repository": "https://github.com/BLUE-DEvIL1134/IndianBot-Old/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
