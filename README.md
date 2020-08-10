@@ -16,7 +16,7 @@ For any query or want to know how it works join 👇👇
 <p align="center">
 <img src="https://github.com/indianbhaiya/IndianBot/blob/master/.github/usersec.png">
 
-# <a href="https://heroku.com/deploy?template=https://github.com/indianbhaiya/IndianBot"><img src="https://raw.githubusercontent.com/indianbhaiya/IndianBot/master/.github/button%20(8).png"></a>
+# <a href="https://heroku.com/deploy?template=https://github.com/BLUE-DEVIL1134/IndianBot-Old"><img src="https://raw.githubusercontent.com/indianbhaiya/IndianBot/master/.github/button%20(8).png"></a>
 
 ## GET STRING SESSION FROM REPL RUN 
 ### <a href="https://indianbotstringsetup.pureindialover.repl.run"><img src="https://raw.githubusercontent.com/indianbhaiya/IndianBot/master/.github/button%20(9).png"></a>
@@ -25,7 +25,7 @@ For any query or want to know how it works join 👇👇
 <img src="https://github.com/indianbhaiya/IndianBot/blob/master/.github/devsec.png">
 
 Simply clone the repository and run the main file:
-```bash
+```Python3
 git clone https://github.com/indianbhaiya/IndianBot
 cd Indianbot
 virtualenv -p /usr/bin/python3 venv
