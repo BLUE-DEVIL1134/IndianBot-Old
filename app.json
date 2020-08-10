@@ -1,24 +1,24 @@
 {
-  "name": "IndianBot",
-  "description": "Userbot created by a IndianBhai and join https://t.me/IndianArMyGiveaway for any problems or support",
+  "name": "IndianBot-Archived",
+  "description": "Join https://t.me/IndianBot_Official for any problems or support",
   "logo": "https://telegra.ph/file/b6cd017959adc2814db5f.jpg",
-  "keywords": ["telegram", "userbot", "plugin", "modular", "productivity"],
+  "keywords": ["Telegram", "Userbot","Python3"],
   "repository": "https://github.com/indianbhaiya/IndianBot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
+      "description": "Leave This",
       "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
       "value": "./userbot/DOWNLOADS/",
-      "required": false
+      "required": true
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username.",
-      "value": "[#UR-NAME#](t.me/#UR-USERBAME#)🇮🇳"
+      "value": "[#UR-NAME#](t.me/#UR-USERNAME#)🇮"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -37,7 +37,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally",
+      "description": "Get this value by running Online Repl.Run",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -70,12 +70,12 @@
     "CHROME_BIN": {
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.apt/usr/bin/google-chrome",
-      "required": false
+      "required": true
     },
     "CHROME_DRIVER": {
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.chromedriver/bin/chromedriver",
-      "required": false
+      "required": true
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
@@ -87,16 +87,10 @@
       "required": false
     },
     "TZ": {
-      "description": "Required for Correct Time on autopic",
+      "description": "Just Leave As It Is",
       "value": "Asia/Kolkata",
       "required": false
     },
-    "FED": {
-      "description": "UR FEDRATION FROM ROSE",
-      "value": "",
-      "required": false
-    }
-  },
   "addons": [
     {
       "plan": "heroku-postgresql",
