@@ -11,6 +11,11 @@
       "description": "Leave This",
       "value": "ANYTHING"
     },
+  "VAERSION": {
+    "ENV": {
+      "description": "Dont Change Chutiye",
+      "value": "3.7"
+    },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
       "value": "./userbot/DOWNLOADS/",
@@ -18,7 +23,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username.",
-      "value": "[#UR-NAME#](t.me/#UR-USERNAME#)🇮"
+      "value": "[#UR-NAME#](t.me/#UR-USERNAME#)"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
