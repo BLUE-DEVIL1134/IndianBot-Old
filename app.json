@@ -1,29 +1,24 @@
 {
-  "name": "IndianBot-Archived",
-  "description": "Join https://t.me/IndianBot_Official for any problems or support",
-  "logo": "https://raw.githubusercontent.com/indianbhaiya/IndianBot/master/.github/indian-bot.png",
-  "keywords": ["Telegram", "Userbot","Python3"],
-  "repository": "https://github.com/BLUE-DEvIL1134/IndianBot-Old/",
+  "name": "IndianBot",
+  "description": "Userbot created by a @IndianBots",
+  "logo": "https://telegra.ph/file/b6cd017959adc2814db5f.jpg",
+  "keywords": ["telegram", "userbot", "plugin-able"],
+  "repository": "https://github.com/BLUE-DEVIL1134/IndianBot-Old/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ENV": {
-      "description": "Leave This",
+      "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
-    },
-  "VAERSION": {
-    "ENV": {
-      "description": "Dont Change Chutiye",
-      "value": "3.7"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
       "value": "./userbot/DOWNLOADS/",
-      "required": true
+      "required": false
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username.",
-      "value": "[#UR-NAME#](t.me/#UR-USERNAME#)"
+      "value": "[#UR-NAME#](t.me/#UR-USERBAME#)🇮🇳"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -42,7 +37,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running Online Repl.Run",
+      "description": "Get this value by running python3 telesetup.py locally",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -75,12 +70,12 @@
     "CHROME_BIN": {
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.apt/usr/bin/google-chrome",
-      "required": true
+      "required": false
     },
     "CHROME_DRIVER": {
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.chromedriver/bin/chromedriver",
-      "required": true
+      "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
@@ -92,7 +87,7 @@
       "required": false
     },
     "TZ": {
-      "description": "Just Leave As It Is",
+      "description": "Required for Correct Time on autopic",
       "value": "Asia/Kolkata",
       "required": false
     },
